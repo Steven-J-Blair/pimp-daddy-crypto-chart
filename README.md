@@ -1,4 +1,5 @@
 # pimp-daddy-crypto-chart 
-[https://pdcc-pimp-daddy-crypto-chart.000webhostapp.com/] 
-A fun way to track your favorite crypto projects and add info pertinent to your investment strategy.
-I will be adding research pages for each of my favorite projects. Hope it helps you!
+[(https://pimp-daddy-crypto-chart-b8hv1fj7l-sj-blairs-projects.vercel.app/)] 
+A dashboard for degenerate traders seeking refuge.
+
+Not to be taken too seriously... this is a work in progress.
