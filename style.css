@@ -1,7 +1,7 @@
 body {
   background: black;
   text-align: center;
-  color:antiquewhite
+  font:antiquewhite;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
