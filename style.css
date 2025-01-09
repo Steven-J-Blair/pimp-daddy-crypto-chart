@@ -7,7 +7,7 @@ body {
 
 .grid-container {
   display: inline-grid;
-  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  grid-template-columns: 4fr 1fr; /* Four equal columns */
   gap: 16px; /* Space between the columns */
   padding: 16px;
 }
@@ -15,6 +15,18 @@ body {
 .grid-item {
   background-color: #f4f4f4;
   border: 1px solid #ddd;
-  padding: 16px;
+  padding: 8px;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr); /* Switch to 2 columns on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* Switch to 1 column on very small screens */
+  }
 }
