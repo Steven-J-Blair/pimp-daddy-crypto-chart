@@ -6,7 +6,7 @@ body {
 }
 
 .grid-container {
-  display: inline-grid;
+  display: grid;
   grid-template-columns: repeat(4, 1fr); /* Four equal columns */
   gap: 16px; /* Space between the columns */
   padding: 16px;
