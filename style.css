@@ -2,15 +2,16 @@ body {
   text-align: center;
 }
 
-.grid-container-body{
-    display: inline-grid;
-    grid-template-columns: auto auto;
-    background-color: transparent;
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 16px; /* Space between the columns */
+  padding: 16px;
 }
 
-.grid-item-{
-    background-color: transparent;
-    padding: 400px;
-    font-size: 400px;
-    text-align: center;
+.grid-item {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  padding: 16px;
+  text-align: center;
 }
