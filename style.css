@@ -4,11 +4,11 @@ body {
 
 .grid-container-body{
     display: inline-grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     background-color: transparent;
 }
 
-.grid-item-body{
+.grid-item-{
     background-color: transparent;
     padding: 400px;
     font-size: 400px;
