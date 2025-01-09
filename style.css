@@ -6,9 +6,9 @@ body {
 }
 
 .grid-container {
-  display: grid;
+  display: inline-grid;
   grid-template-columns: repeat(4, 1fr); /* Four equal columns */
-  gap: 16px; /* Space between the columns */
+  gap: 8px; /* Space between the columns */
   padding: 16px;
 }
 
